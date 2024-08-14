@@ -51,7 +51,7 @@ The dataset used in this analysis contains information about loan applicants, in
 The objective of this project is to perform a comprehensive analysis of bank loan data using SQL and create key performance indicator (KPI) metrics to assess loan portfolio performance.
 
 Dashboard 1: Summary
-"C:\Users\austi\OneDrive\Web Images\BankLoanAnalysisSummary.png"
+![BankLoanAnalysisSummary](https://github.com/user-attachments/assets/55b4c7f4-1d0b-4583-881c-11174178a6b2)
 
 Key Performance Indicators (KPIs) Requirements:
 - Total Loan Applications
@@ -63,7 +63,7 @@ Key Performance Indicators (KPIs) Requirements:
 Summary Dashboard
 
 Dashboard 2: Overview
-"C:\Users\austi\OneDrive\Web Images\BankLoanAnalysisOverview.png"
+![BankLoanAnalysisOverview](https://github.com/user-attachments/assets/fa3a6698-b480-4775-a794-f0a5c8ffe367)
 
 Charts
 - Monthly Trends by Issue Date (Line Chart)
@@ -76,7 +76,7 @@ Charts
 **Overview Dashboard**
 
 ### Dashboard 3: Details
-"C:\Users\austi\OneDrive\Web Images\BankLoanAnalysisDetails.png"
+![BankLoanAnalysisDetails](https://github.com/user-attachments/assets/7a4f107a-7abf-4009-b57a-21b0c9504aae)
 
 #### Grid
 The Details Dashboard provides a consolidated view of key loan-related metrics and data points, enabling users to access critical information efficiently.
