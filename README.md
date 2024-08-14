@@ -8,6 +8,7 @@ This project is dedicated to the analysis of bank loan data with the objective o
 
 ### Bank Loan Domain Knowledge
 Bank loan domain knowledge encompasses a comprehensive understanding of the various aspects of loan management, including loan types, underwriting processes, risk assessment, and regulatory compliance. This knowledge includes familiarity with loan products such as personal, mortgage, auto, and business loans, as well as the criteria for approving and managing these loans. It involves an understanding of credit scoring, interest rates, repayment schedules, and default management. Proficiency in this domain also requires insight into the financial metrics and performance indicators used to evaluate loan portfolios, customer behavior, and overall risk exposure. Mastery of these elements enables effective decision-making, strategic planning, and optimization of lending practices within the banking sector.
+
 #### How do Banks Collect Loan Data?
 Banks collect loan data through various channels, including loan applications, credit reports, income verification, collateral evaluation, and online platforms.
 
@@ -46,7 +47,7 @@ The dataset used in this analysis contains information about loan applicants, in
 - **total_acc**: The total number of credit accounts the borrower has.
 - **total_payment**: The total amount paid by the borrower over the life of the loan.
 
-##Problem Statement
+Problem Statement
 
 The objective of this project is to perform a comprehensive analysis of bank loan data using SQL and create key performance indicator (KPI) metrics to assess loan portfolio performance.
 
@@ -86,3 +87,5 @@ The Details Dashboard provides a consolidated view of key loan-related metrics a
 ### Conclusion
 
 The bank loan analysis offers a succinct yet insightful overview of loan portfolio performance, customer behavior, and risk assessment. Utilizing SQL for robust data processing and Power BI for dynamic visualization, this analysis provides actionable insights into trends in loan repayment, probabilities of default, and customer segmentation. By integrating data-driven decision-making into operational strategies, the bank can optimize lending practices, mitigate risks effectively, and enhance overall financial performance.
+
+**MY APPRECIATION TO DATA TUTORIAL FOR PROVIDING THE DATASET AND GUIDIANCE IN DOING THIS PROJECT.
