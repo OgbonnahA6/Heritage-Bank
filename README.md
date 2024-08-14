@@ -88,4 +88,4 @@ The Details Dashboard provides a consolidated view of key loan-related metrics a
 
 The bank loan analysis offers a succinct yet insightful overview of loan portfolio performance, customer behavior, and risk assessment. Utilizing SQL for robust data processing and Power BI for dynamic visualization, this analysis provides actionable insights into trends in loan repayment, probabilities of default, and customer segmentation. By integrating data-driven decision-making into operational strategies, the bank can optimize lending practices, mitigate risks effectively, and enhance overall financial performance.
 
-**MY APPRECIATION TO DATA TUTORIAL FOR PROVIDING THE DATASET AND GUIDIANCE IN DOING THIS PROJECT.
+**MY APPRECIATION TO DATA TUTORIALS FOR PROVIDING THE DATASET AND GUIDANCE IN DOING THIS PROJECT.
