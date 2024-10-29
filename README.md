@@ -1,8 +1,9 @@
 # HERITAGE BANK LOANS ANALYSIS
 
+![image](https://github.com/user-attachments/assets/85388c10-abe4-4bc5-85df-c66d2f83805d)
 
 ### Overview: 
-The analysis focused on understanding key factors that impact loan performance, particularly identifying predictors of loan defaults. The dataset contained borrower information, loan characteristics, and repayment details, allowing for in-depth examination of risk indicators. The key objectives were:
+The analysis focused on understanding key factors that impact loan performance, particularly identifying predictors of loan defaults. The dataset contained borrower information, loan characteristics, and repayment details, allowing for an in-depth examination of risk indicators. The key objectives were:
 1.	**Identify Default Risk Factors**: Determine the primary variables contributing to loan defaults.
 2.	**Analyze Borrower Characteristics**: Examine the relationship between borrower traits (income, DTI, employment length) and loan outcomes.
 3.	**Explore Feature Relationships**: Assess the interplay between key loan variables like loan amount, interest rate, and their impact on default risk.
@@ -10,11 +11,11 @@ Utilizing SQL for sophisticated data processing and Power BI for advanced visual
 
 ### Background: 
 Analyzing loan data is essential for banks, enhancing several critical aspects of their operations. 
-  1. Firstly, it bolsters risk management by providing valuable insights into potential default risks and loan performance, enabling banks to implement proactive measures and effectively manage their risk exposure. 
-  2. Secondly, it facilitates informed decision-making by delivering data-driven insights into loan portfolios, thereby supporting more strategic planning and targeted interventions. 
-  3. Furthermore, performance monitoring is significantly optimized, as banks can track various metrics related to loan repayment and portfolio health, identifying trends and areas for improvement.
-  4. Additionally, loan data analysis plays a pivotal role in fraud detection by uncovering anomalies and patterns indicative of fraudulent activity, thus protecting the institution’s assets. 
-  5. Lastly, it offers invaluable customer insights, enabling banks to better understand borrower behavior and preferences, which in turn enhances customer relationship management and allows for the tailoring of financial products to more effectively meet customer needs.
+- First, it bolsters risk management by providing valuable insights into potential default risks and loan performance, enabling banks to implement proactive measures and effectively manage their risk exposure. 
+- Second, it facilitates informed decision-making by delivering data-driven insights into loan portfolios, thereby supporting more strategic planning and targeted interventions. 
+- Furthermore, performance monitoring is significantly optimized, as banks can track various metrics related to loan repayment and portfolio health, identifying trends and areas for improvement.
+- Additionally, loan data analysis plays a pivotal role in fraud detection by uncovering anomalies and patterns indicative of fraudulent activity, thus protecting the institution’s assets. 
+- Lastly, it offers invaluable customer insights, enabling banks to better understand borrower behavior and preferences, and enhancing customer relationship management. It also allows for tailoring of financial products to more effectively meet customer needs.
 
 ### Data Collection and Processing: 
 Banks gather loan data through multiple channels, including loan applications, credit reports, income verification processes, collateral assessments, and digital platforms. The dataset (Loan_financial) used in this analysis contains information about loan applicants, including attributes such as credit score, income, employment length, loan amount, and loan status.
@@ -33,7 +34,7 @@ The dataset contains several columns that provide detailed information about loa
   f. grade: Loan grade assigned based on credit risk.
   g. sub_grade: More granular classification of loan risk.
   h. term: Duration of the loan (36 or 60 months).
-  i. int_rate: interest rate of the loan.
+  i. int_rate: the interest rate of the loan.
   j. loan_amount: Principal loan amount.
   k. installment: Monthly payment required.
   l. verification_status: Whether the borrower's income has been verified.
@@ -57,13 +58,14 @@ The dataset contains several columns that provide detailed information about loa
 4.	**Debt-to-Income Ratio (DTI) Distribution**:
   A higher debt-to-income ratio could signal borrowers with greater financial commitments relative to their income. These borrowers may pose a higher risk, especially when combined with lower income and higher interest rates.
 5.	**Correlation Insights**:
-  a. Loan Amount vs. Interest Rate: Likely a moderate positive correlation, meaning larger loans tend to have higher interest rates due to perceived higher risk.
-  b. Annual Income vs. Loan Amount: Higher-income borrowers may take out larger loans, showing a positive relationship.
-  c. DTI vs. Interest Rate: Borrowers with higher DTI ratios could be charged higher interest rates, as lenders may view them as riskier due to their existing debt burden.
-6.	**Key Takeaways**:
-  a. Risk Indicators: Higher loan amounts, interest rates, and DTI ratios are all potential indicators of higher loan default risk. Borrowers with lower incomes and higher DTIs should be considered for stricter approval criteria or different repayment structures.
-  b. Segmentation Potential: Segmenting borrowers by income, loan amount, and interest rate can provide deeper insights into specific risk groups and optimize lending strategies.
-  c. Feature Relationships: Understanding the correlations between income, loan amount, and interest rates helps identify patterns that could guide predictive modeling for loan defaults.
+  a. **Loan Amount vs. Interest Rate:** Likely a moderate positive correlation, meaning larger loans tend to have higher interest rates due to perceived higher risk.
+  b. **Annual Income vs. Loan Amount:** Higher-income borrowers may take out larger loans, showing a positive relationship.
+  c. **DTI vs. Interest Rate:** Borrowers with higher DTI ratios could be charged higher interest rates, as lenders may view them as riskier due to their existing debt burden.
+
+**Key Takeaways**:
+  a. **Risk Indicators:** Higher loan amounts, interest rates, and DTI ratios are all potential indicators of higher loan default risk. Borrowers with lower incomes and higher DTIs should be considered for stricter approval criteria or different repayment structures.
+  b. **Segmentation Potential:** Segmenting borrowers by income, loan amount, and interest rate can provide deeper insights into specific risk groups and optimize lending strategies.
+  c. **Feature Relationships:** Understanding the correlations between income, loan amount, and interest rates helps identify patterns that could guide predictive modeling for loan defaults.
 
 ### Methodology: 
 The methodology applied in this loan analysis project integrated a range of advanced data analysis techniques and strategic planning approaches:
@@ -78,15 +80,15 @@ The analysis yielded several significant findings:
 •	**Recommendation**: Focus on refining loan approval criteria for applicants in lower-grade categories. Consider implementing additional support mechanisms (e.g., financial counseling or better structuring of repayment plans) to reduce default risk in these groups.
 #### Borrower Financial Health and Loan Performance
 •	**Insight**: Borrowers with longer employment histories and higher annual incomes tend to make higher total payments, indicating better loan performance. This suggests that stable employment is a key indicator of financial health and repayment ability.
-•	**Recommendation**: Prioritize borrowers with longer employment lengths and higher incomes in loan approvals. Consider offering preferential terms (lower interest rates) to this demographic, as they exhibit lower risk.
+•	**Recommendation**: Prioritize borrowers with longer employment lengths and higher incomes in loan approvals. Consider offering preferential terms (lower interest rates) for this demographic, as they exhibit lower risk.
 
 #### Summary Dashboard:
   ![Slide1](https://github.com/user-attachments/assets/7cb5fa27-ecf5-4e98-b24b-89a3d080bd32)
 
 
 #### Debt-to-Income Ratio (DTI) Analysis
-**Insight**: The debt-to-income ratio (DTI) has a weak positive correlation with both loan amount and total payments, meaning that while higher DTI may slightly increase loan size, it does not have a significant impact on repayment. This indicates that higher DTI does not strongly correlate with increased risk of repayment issues.
-**Recommendation**: DTI should still be considered as part of the overall risk assessment, but it may not need to be heavily weighted. Focus more on factors like income stability and loan grade when determining risk.
+**Insight**: The debt-to-income ratio (DTI) has a weak positive correlation with both loan amount and total payments, meaning that while a higher DTI may slightly increase loan size, it does not significantly impact repayment. This indicates that higher DTI does not strongly correlate with an increased risk of repayment issues.
+**Recommendation**: DTI should still be considered an important part of the overall risk assessment, but it may not need to be heavily weighted. Focus more on factors like income stability and loan grade when determining risk.
   #### Loan Amount vs Interest Rate Trends
 **Insight**: There is a moderate positive correlation between loan amount and interest rates, meaning larger loans tend to come with higher interest rates. This could be because larger loans are perceived as riskier, requiring a higher return.
 **Recommendation**: Monitor larger loan segments for repayment issues. Consider offering better terms (such as lower interest rates or extended repayment periods) for higher-income individuals to improve repayment rates on larger loans.
@@ -105,7 +107,7 @@ The analysis yielded several significant findings:
 #### 1. Stricter Loan Approval for High-Risk Loans:
 Borrowers with lower incomes and high debt-to-income ratios should be subjected to stricter loan approval criteria. This could include verifying the borrower’s financial health more thoroughly or offering smaller loan amounts to reduce default risk.
 #### 2. Adjust Interest Rates for Riskier Borrowers:
-Since higher interest rates are associated with default, the lending institution may want to reconsider their pricing strategy. Offering more competitive rates to lower-risk borrowers could enhance repayment performance.
+Since higher interest rates are associated with default, the lending institution may want to reconsider its pricing strategy. Offering more competitive rates to lower-risk borrowers could enhance repayment performance.
 #### 3. Employment and Income Verification:
 Employment length and income appear to be significant indicators of loan performance. Consider focusing on borrowers with stable, long-term employment when offering larger loans, or offer repayment plans adjusted to employment stability.
 #### 4. Focus on Large Loan Monitoring:
@@ -137,7 +139,7 @@ Focusing on these areas will not only strengthen risk mitigation strategies but 
 #### Summary of key findings:
 1. Default loans have a higher average loan amount ($12,635) compared to non-defaulted loans ($11,202). This suggests that borrowers with larger loans may be at a higher risk of defaulting.
 2. The average interest rate for defaulted loans is higher (13.89%) than for non-defaulted loans (11.92%). This indicates that riskier loans (with higher interest rates) are more likely to default.
-3. Borrowers who defaulted tend to have a lower average income ($62,420) compared to non-defaulted borrowers ($70,151). Lower income may contribute to the inability to meet repayment obligations.
+3. Borrowers who default tend to have a lower average income ($62,420) compared to non-defaulted borrowers ($70,151). Lower income may contribute to the inability to meet repayment obligations.
 4. The debt-to-income ratio is slightly higher for defaulted loans (14.13%) compared to non-defaulted loans (13.27%). This suggests that borrowers with a higher debt burden relative to their income are more likely to default.
 5. Defaulted loans are associated with a smaller number of borrowers, which may imply that people with shorter employment histories are more prone to default. This is especially evident when combined with the income data, as less stable employment may correlate with lower repayment ability.
 The Heritage Bank loan analysis provides a concise yet comprehensive evaluation of loan portfolio performance, customer behavior, and risk management. Leveraging SQL for efficient data processing and Power BI for dynamic visualizations, the analysis delivers actionable insights into loan repayment trends, default probabilities, and customer segmentation. By incorporating data-driven decision-making into its operational strategies, the bank can optimize lending practices, mitigate risks more effectively, and improve overall financial performance.
