@@ -62,15 +62,15 @@ The dataset contains several columns that provide detailed information about loa
   c. **DTI vs. Interest Rate:** Borrowers with higher DTI ratios could be charged higher interest rates, as lenders may view them as riskier due to their existing debt burden.
 
 **Key Takeaways**:
-  a. **Risk Indicators:** Higher loan amounts, interest rates, and DTI ratios are all potential indicators of higher loan default risk. Borrowers with lower incomes and higher DTIs should be considered for stricter approval criteria or different repayment structures.
-  b. **Segmentation Potential:** Segmenting borrowers by income, loan amount, and interest rate can provide deeper insights into specific risk groups and optimize lending strategies.
-  c. **Feature Relationships:** Understanding the correlations between income, loan amount, and interest rates helps identify patterns that could guide predictive modeling for loan defaults.
+  - **Risk Indicators:** Higher loan amounts, interest rates, and DTI ratios are all potential indicators of higher loan default risk. Borrowers with lower incomes       and higher DTIs should be considered for stricter approval criteria or different repayment structures.
+  - **Segmentation Potential:** Segmenting borrowers by income, loan amount, and interest rate can provide deeper insights into specific risk groups and optimize         lending strategies.
+  -  **Feature Relationships:** Understanding the correlations between income, loan amount, and interest rates helps identify patterns that could guide predictive modeling for loan defaults.
 
 ### Methodology: 
 The methodology applied in this loan analysis project integrated a range of advanced data analysis techniques and strategic planning approaches:
-•	**Correlation Analysis**: We performed correlation analyses to identify relationships between key factors such as loan amount, interest rates, borrower income, and loan default risk, with particular emphasis on identifying high-risk borrower segments and potential default indicators.
-•	**Market Benchmarking**: The performance of the loan portfolio was benchmarked against industry standards, including comparisons to peer institutions, using metrics such as default rates, interest rate structures, and portfolio growth.
-•	**Data Visualization Tools**: Advanced visualization techniques were employed to map loan performance trends over time. Various types of charts were utilized to provide comparative assessments of loan risk profiles, repayment behavior, and portfolio diversification, facilitating a deeper understanding of performance metrics and risk management strategies.
+- **Correlation Analysis**: We performed correlation analyses to identify relationships between key factors such as loan amount, interest rates, borrower income, and loan default risk, with particular emphasis on identifying high-risk borrower segments and potential default indicators.
+- **Market Benchmarking**: The performance of the loan portfolio was benchmarked against industry standards, including comparisons to peer institutions, using metrics such as default rates, interest rate structures, and portfolio growth.
+- **Data Visualization Tools**: Advanced visualization techniques were employed to map loan performance trends over time. Various types of charts were utilized to provide comparative assessments of loan risk profiles, repayment behavior, and portfolio diversification, facilitating a deeper understanding of performance metrics and risk management strategies.
 
 ### Results: 
 The analysis yielded several significant findings:
