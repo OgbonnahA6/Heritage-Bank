@@ -47,8 +47,7 @@ The dataset contains several columns that provide detailed information about loa
 
 ### Exploratory Data Analysis (EDA): 
 
-
-  #### Summary of EDA Analysis Insights:
+  **Summary of EDA Analysis Insights:**
 1.	**Loan Amount Distribution**:
   Loan amounts likely exhibit a right-skewed distribution, with a concentration of smaller loans and fewer larger loans. This suggests a typical lending practice where more borrowers take out smaller loans.
 2.	**Interest Rate Distribution**:
