@@ -19,11 +19,10 @@ Analyzing loan data is essential for banks, enhancing several critical aspects o
 - Lastly, it offers invaluable customer insights, enabling banks to understand borrower behavior and preferences and enhancing customer relationship management. It also allows for tailoring financial products to meet customer needs more effectively.
 ---
 ### Data Collection and Processing: 
-
-Banks gather loan data through multiple channels, including loan applications, credit reports, income verification processes, collateral assessments, and digital platforms. The dataset (Loan_financial) used in this analysis contains information about loan applicants, including attributes such as credit score, income, employment length, loan amount, and loan status.
+- Banks gather loan data from various sources, including loan applications, credit reports, income verification processes, collateral evaluations, and digital platforms. The dataset used in this analysis, Loan_financial, includes key attributes of loan applicants such as credit score, income, employment length, loan amount, and loan status.
 ---
 ### Data Set Descriptions:
-The dataset contains several columns that contain detailed information about loan applicants and their loan details. Here's a breakdown of key columns to help guide the analysis:
+- The dataset contains several columns with detailed information about loan applicants and their loan details. Here's a breakdown of key columns to help guide the analysis:
 
 1.	**Borrower Characteristics:**
   a. address_state: The state of residence.
