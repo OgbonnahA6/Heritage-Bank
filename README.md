@@ -1,6 +1,7 @@
 # HERITAGE BANK LOANS ANALYSIS
+---
+![BankImage](https://github.com/user-attachments/assets/ab4cba37-ed71-4cd6-97f5-bcfcdc56e41a)
 
-![image](https://github.com/user-attachments/assets/85388c10-abe4-4bc5-85df-c66d2f83805d)
 ---
 ### Overview: 
 The analysis focused on understanding key factors that impact loan performance, particularly identifying predictors of loan defaults. The dataset contained borrower information, loan characteristics, and repayment details, allowing for an in-depth examination of risk indicators. The key objectives were:
@@ -18,6 +19,7 @@ Analyzing loan data is essential for banks, enhancing several critical aspects o
 - Lastly, it offers invaluable customer insights, enabling banks to understand borrower behavior and preferences and enhancing customer relationship management. It also allows for tailoring financial products to meet customer needs more effectively.
 ---
 ### Data Collection and Processing: 
+
 Banks gather loan data through multiple channels, including loan applications, credit reports, income verification processes, collateral assessments, and digital platforms. The dataset (Loan_financial) used in this analysis contains information about loan applicants, including attributes such as credit score, income, employment length, loan amount, and loan status.
 ---
 ### Data Set Descriptions:
