@@ -93,21 +93,33 @@ The methodology for this loan analysis project employed advanced data analysis t
 ---
 ### Results: 
 The analysis yielded several significant findings:
-#### 1. Risk Assessment: Loan Grades and Defaults
-- **Insight**: Higher loan grades (like A or B) tend to be associated with lower interest rates and smaller loan amounts, while lower grades (C, D, E) have higher interest rates and larger loans. Additionally, loans with lower grades show higher total payments, which could imply a higher repayment burden due to interest accumulation.
-- **Recommendation**: Focus on refining loan approval criteria for applicants in lower-grade categories. Consider implementing additional support mechanisms (e.g., financial counseling or better structuring of repayment plans) to reduce default risk in these groups.
+#### 1. Risk Assessment:
+- **Loan Grades and Defaults**
+  - **Insight**:
+    - Higher loan grades (like A or B) tend to be associated with lower interest rates and smaller loan amounts, while lower grades (C, D, E) have higher interest rates and larger loans.
+    - Additionally, loans with lower grades show higher total payments, which could imply a higher repayment burden due to interest accumulation.
+  - **Recommendation**:
+    - 1. Focus on refining loan approval criteria for applicants in lower-grade categories.
+    - 2. Consider implementing additional support mechanisms (e.g., financial counseling or better structuring of repayment plans) to reduce default risk in these groups.
   
 #### 2. Borrower Financial Health and Loan Performance
-- **Insight**: Borrowers with longer employment histories and higher annual incomes tend to make higher total payments, indicating better loan performance. This suggests that stable employment is a key indicator of financial health and repayment ability.
-- **Recommendation**: Prioritize borrowers with longer employment lengths and higher incomes in loan approvals. Consider offering preferential terms (lower interest rates) to these demographics, as they exhibit lower risk.
+  - **Insight**:
+    - Borrowers with longer employment histories and higher annual incomes tend to make higher total payments, indicating better loan performance. This suggests that stable employment is a key indicator of financial health and repayment ability.
+  - **Recommendation**:
+    - Prioritize borrowers with longer employment lengths and higher incomes in loan approvals.
+    - Consider offering preferential terms (lower interest rates) to these demographics, as they exhibit lower risk.
 ---
 #### 3. Summary Dashboard:
   ![Slide1](https://github.com/user-attachments/assets/7cb5fa27-ecf5-4e98-b24b-89a3d080bd32)
 
 
 #### 4. Debt-to-Income Ratio (DTI) Analysis
-- **Insight**: The debt-to-income ratio (DTI) has a weak positive correlation with both loan amount and total payments, meaning that while a higher DTI may slightly increase loan size, it does not significantly impact repayment. This indicates that higher DTI does not strongly correlate with an increased risk of repayment issues.
-- **Recommendation**: DTI should still be considered an important part of the overall risk assessment, but it may not need to be heavily weighted. Focus more on factors like income stability and loan grade when determining risk.
+- **Insight**:
+  - The debt-to-income ratio (DTI) has a weak positive correlation with both loan amount and total payments, meaning that while a higher DTI may slightly increase loan size, it does not significantly impact repayment.
+  - This also indicates that higher DTI does not strongly correlate with an increased risk of repayment issues.
+- **Recommendation**:
+  - DTI should still be considered an important part of the overall risk assessment, but it may not need to be heavily weighted.
+  - Focus more on factors like income stability and loan grade when determining default risk.
   
 #### 5. Loan Amount vs Interest Rate Trends
 - **Insight:**
