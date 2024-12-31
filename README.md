@@ -3,7 +3,7 @@
 ![BankImage](https://github.com/user-attachments/assets/ab4cba37-ed71-4cd6-97f5-bcfcdc56e41a)
 
 ---
-### Overview: 
+### A. Overview: 
 The analysis focused on understanding key factors that impact loan performance, particularly identifying predictors of loan defaults. The dataset contained borrower information, loan characteristics, and repayment details, allowing for an in-depth examination of risk indicators. 
 #### Key Objectives:
 - Identify Default Risk Factors: Pinpoint the primary variables driving loan defaults.
@@ -11,14 +11,14 @@ The analysis focused on understanding key factors that impact loan performance, 
 - Examine Feature Relationships: Evaluate the interactions between key loan variables, including loan amount and interest rate, and their effect on default risk.
 - The analysis leverages SQL for advanced data processing and Power BI for insightful visualizations, delivering actionable insights into loan repayment trends, default probabilities, and customer segmentation. By integrating data-driven decision-making into its operations, the bank can optimize lending practices, improve risk management, and enhance financial performance.
 ---
-### Problem Statement: 
+### B. Problem Statement: 
 The bank aims to enhance its lending operations by creating a comprehensive, actionable loan analysis report. This report will evaluate key loan performance metrics, identify default risk factors, and uncover trends in borrower behavior. Leveraging advanced data analytics and visualization techniques, the analysis seeks to optimize loan portfolio management, improve risk assessment, and support data-driven decision-making. Key focus areas include tracking loan application trends, benchmarking loan quality, and segmenting borrowers based on risk profiles to ensure strategic and sustainable growth.
 ---
-### Data Collection and Processing: 
+### C. Data Collection and Processing: 
 - Banks gather loan data from various sources, including loan applications, credit reports, income verification processes, collateral evaluations, and digital platforms.
 - The dataset used in this analysis, **Loan_financial**, includes key attributes of loan applicants such as credit score, income, employment length, loan amount, and loan status.
 ---
-### Data Set Descriptions:
+### D. Data Set Descriptions:
 - The dataset contains several columns with detailed information about loan applicants and their loan details. Here's a breakdown of key columns to help guide the analysis:
 
 #### 1. Borrower Characteristics:
@@ -43,52 +43,52 @@ The bank aims to enhance its lending operations by creating a comprehensive, act
   - total_payment: Total amount paid towards the loan so far.
   - last_payment_date and last_credit_pull_date: Dates related to payments and credit checks.
 ---
-## Exploratory Data Analysis (EDA): 
-### Summary of Insights
-#### Amount Distribution
+### E. Exploratory Data Analysis (EDA): 
+#### Summary of Insights
+#### 1. Amount Distribution
   - Loan amounts exhibited a right-skewed distribution, with a concentration of smaller loans and fewer larger facilities. This aligns with bank lending practices, whereby a majority of borrowers prefer smaller loans.
 
-#### Interest Rate Distribution
+#### 2. Interest Rate Distribution
 - Interest rates cluster around common values and increase progressively for riskier loans. Borrowers with higher risk profiles, such as those with lower credit scores, are generally charged higher interest rates.
 
-#### Annual Income Distribution
+#### 3. Annual Income Distribution
 - Annual income spans a broad range with potential outliers, reflecting a diverse borrower population. This variability likely influences both loan approval and repayment capabilities.
 
-#### Debt-to-Income Ratio (DTI) Distribution
+#### 4. Debt-to-Income Ratio (DTI) Distribution
 - Borrowers with higher DTI ratios tend to have greater financial commitments relative to their income, posing a higher risk of default. This risk is amplified when combined with lower incomes and higher interest rates.
 
-#### Correlation Insights
-##### Loan Amount vs. Interest Rate:
+#### 5. Correlation Insights
+##### 5.1 Loan Amount vs. Interest Rate:
   - A moderate positive correlation indicates that larger loans are associated with higher interest rates, likely reflecting the increased risk.
-##### Annual Income vs. Loan Amount:
+##### 5.2 Annual Income vs. Loan Amount:
   - Higher-income borrowers tend to secure larger loans, demonstrating a positive relationship.
-##### DTI vs. Interest Rate:**
+##### 5.3 DTI vs. Interest Rate:**
   -  Borrowers with higher DTI ratios are often charged higher interest rates, as lenders perceive them as riskier due to existing debt obligations.
 
-### Key Takeaways
-##### Risk Indicators:
+### F. Key Takeaways
+##### 1. Risk Indicators
   -  Higher loan amounts, elevated interest rates, and increased DTI ratios are key indicators of potential default risk. Borrowers with lower incomes and higher DTIs should be evaluated with stricter approval criteria or offered alternative repayment structures.
 
-##### Segmentation Potential:
+##### 2. Segmentation Potential:
   - Segmenting borrowers by income, loan amount, and interest rate enables more precise risk assessment and supports the optimization of lending strategies.
 
-##### Feature Relationships:
+##### 3. Feature Relationships:
   - Understanding correlations between key features such as income, loan amount, and interest rates provides actionable insights for building predictive models to identify default risks and improve lending practices.
 ---
-### Methodology: 
+### G. Methodology: 
 The methodology for this loan analysis project employed advanced data analysis techniques and strategic planning to deliver actionable insights:
-#### Correlation Analysis:
+#### 1. Correlation Analysis:
 - Conducted a correlation analysis to uncover relationships between key factors such as loan amount, interest rates, borrower income, and loan default risk. This helped identify high-risk borrower segments and key indicators of potential defaults.
-#### Market Benchmarking:
+#### 2. Market Benchmarking:
 - Benchmarked loan portfolio performance against industry standards and peer institutions, evaluating metrics such as default rates, interest rate structures, and portfolio growth to gauge competitiveness and identify areas for improvement.
-#### Data Visualization:
+#### 3. Data Visualization:
 - Utilized advanced visualization techniques to analyze loan performance trends. Charts and graphs provided comparative insights into loan risk profiles, repayment behaviors, and portfolio diversification, enabling a clearer understanding of performance metrics and risk management strategies.
-##### Dashboards:
+#### 4. Dashboards:
   1. Summary Dashboard
   2. Overview Dashboard
   3. Details Dashboard
 ---
-### SQL Query Codes
+### H. SQL Query Codes
 
   Query 1                                                                                |               Query 2
 :--------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------:
@@ -111,7 +111,7 @@ The methodology for this loan analysis project employed advanced data analysis t
 ![SQL9](https://github.com/user-attachments/assets/2389838a-4a9d-4320-a65d-812882b79725)  
 
 ---
-### Results: 
+### I. Results: 
 The analysis yielded several significant findings:
 #### 1. Risk Assessment:
 ##### Loan Grades and Defaults
@@ -131,7 +131,6 @@ The analysis yielded several significant findings:
 ---
 #### 3. Summary Dashboard:
   ![Slide1](https://github.com/user-attachments/assets/7cb5fa27-ecf5-4e98-b24b-89a3d080bd32)
-
 
 #### 4. Debt-to-Income Ratio (DTI) Analysis
 ##### Insight
@@ -159,39 +158,38 @@ The analysis yielded several significant findings:
 #### 8. Details Dashboard:
 ![Slide3](https://github.com/user-attachments/assets/16790c9c-32b2-4f7d-9c1f-37c603a312ca)
 
-### 9. Recommendations: 
-##### Stricter Loan Approval for High-Risk Loans:
+### J. Recommendations: 
+##### 1. Stricter Loan Approval for High-Risk Loans:
 - Borrowers with lower incomes and high debt-to-income ratios should be subjected to stricter loan approval criteria. This could include verifying the borrower’s financial health more thoroughly or offering smaller loan amounts to reduce default risk.
-##### Adjust Interest Rates for Riskier Borrowers:
+##### 2. Adjust Interest Rates for Riskier Borrowers:
 - Since higher interest rates are associated with default, the lending institution may want to reconsider its pricing strategy. Offering more competitive rates to lower-risk borrowers could enhance repayment performance.
-##### Employment and Income Verification:
+##### 3. Employment and Income Verification:
 - Employment length and income are key predictors of loan performance. Focus on borrowers with stable, long-term employment when offering larger loans, or tailor repayment plans to align with their employment stability.
-##### Focus on Large Loan Monitoring:
+##### 4. Focus on Large Loan Monitoring:
 - Larger loans are more prone to default and to reduce default rates, closer monitoring or more structured repayment options might be required.
----
-### Overall Strategic Recommendations:
+#### 5. Overall Strategic Recommendations:
 - **Enhanced Credit Risk Modeling**: Consider incorporating more advanced predictive models (e.g., machine learning) to assess the likelihood of defaults based on loan grades, borrower characteristics, and geographical factors.
 - **Custom Loan Terms**: Offer tailored loan products with flexible interest rates and terms based on borrower stability (income, employment length) and regional characteristics.
 - **Focus on High-Employment Borrowers**: Given the strong correlation between employment length and better repayment, focus lending efforts on individuals with more stable employment.
 - **Regional Strategy**: Develop a regional strategy that adjusts lending terms based on state-specific performance, addressing areas where loan performance is subpar.
 ---
-### Future Work: 
+### K. Future Work: 
 - Heritage Bank to focus on the following key areas of loan analysis for future work to enhance decision-making, risk management, and portfolio performance:
-##### Predictive Modeling for Default Risk:
+##### 1. Predictive Modeling for Default Risk:
 - Refine predictive models for loan default risk using machine learning techniques like Random Forest, Gradient Boosting, or Neural Networks. Enhance accuracy by incorporating additional data, including borrower characteristics, macroeconomic indicators, and behavioral patterns.
-##### Customer Segmentation and Personalized Lending:
+##### 2. Customer Segmentation and Personalized Lending:
 - Conduct customer segmentation analysis to understand borrower profiles and tailor lending products accordingly. Segmentation based on income, credit history, and repayment behavior can help design more personalized loan terms, reducing default risk and increasing customer satisfaction.
-##### Portfolio Stress Testing:
+##### 3. Portfolio Stress Testing:
 - Implement stress testing models to evaluate how external factors (e.g., economic downturns, interest rate hikes, regulatory changes) impact loan portfolio performance. This will help identify vulnerabilities and prepare the institution for adverse economic scenarios.
-##### Fraud Detection and Anomaly Analysis:**
+##### 4. Fraud Detection and Anomaly Analysis:**
 - Develop more advanced fraud detection algorithms by leveraging anomaly detection techniques and machine learning. Future work should focus on real-time monitoring systems that can identify fraudulent activities or irregularities in loan applications and repayment patterns.
-##### Impact of Economic Indicators on Loan Performance:**
+##### 5. Impact of Economic Indicators on Loan Performance:**
 - Analyze the impact of key economic indicators such as inflation, unemployment rates, and GDP growth on loan repayment behavior and portfolio performance. This analysis can help institutions adjust their lending strategies in response to macroeconomic conditions.
-##### Loan Product Innovation and Profitability Analysis:
+##### 6. Loan Product Innovation and Profitability Analysis:
 - Analyze the profitability of various loan products by examining interest rates, loan durations, and borrower risk profiles. Future efforts should focus on designing innovative loan products tailored to emerging market segments, ensuring a balance between profitability and risk.
 - This approach will strengthen risk mitigation strategies while improving portfolio management and operational efficiency.
 ---
-### Conclusion:
+### L. Conclusion:
 #### Summary of key findings
   - Defaulted loans have a higher average loan amount **($12,635)** than non-defaulted loans **($11,202)**, indicating that borrowers with larger loans may face an increased risk of default.
   - The average interest rate for defaulted loans is higher **(13.89%)** than for non-defaulted loans **(11.92%)**, suggesting that higher-risk loans with elevated interest rates are more prone to default.
