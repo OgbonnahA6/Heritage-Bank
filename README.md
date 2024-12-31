@@ -12,13 +12,8 @@ The analysis focused on understanding key factors that impact loan performance, 
 
 - The analysis leverages SQL for advanced data processing and Power BI for insightful visualizations, delivering actionable insights into loan repayment trends, default probabilities, and customer segmentation. By integrating data-driven decision-making into its operations, the bank can optimize lending practices, improve risk management, and enhance financial performance.
 ---
-### Background: 
-Analyzing loan data is essential for banks, enhancing several critical aspects of their operations. 
-- First, it bolsters risk management by providing valuable insights into potential default risks and loan performance, enabling banks to implement proactive measures and effectively manage their risk exposure. 
-- Second, it facilitates informed decision-making by delivering data-driven insights into loan portfolios, supporting more strategic planning and targeted interventions. 
-- Furthermore, performance monitoring is significantly optimized, as banks can track various metrics related to loan repayment and portfolio health, identifying trends and areas for improvement.
-- Additionally, loan data analysis plays a pivotal role in fraud detection by uncovering anomalies and patterns indicative of fraudulent activity, thus protecting the institution’s assets. 
-- Lastly, it offers invaluable customer insights, enabling banks to understand borrower behavior and preferences and enhancing customer relationship management. It also allows for tailoring financial products to meet customer needs more effectively.
+### Problem Statement: 
+- The bank aims to enhance its lending operations by creating a comprehensive, actionable loan analysis report. This report will evaluate key loan performance metrics, identify default risk factors, and uncover trends in borrower behavior. Leveraging advanced data analytics and visualization techniques, the analysis seeks to optimize loan portfolio management, improve risk assessment, and support data-driven decision-making. Key focus areas include tracking loan application trends, benchmarking loan quality, and segmenting borrowers based on risk profiles to ensure strategic and sustainable growth.
 ---
 ### Data Collection and Processing: 
 - Banks gather loan data from various sources, including loan applications, credit reports, income verification processes, collateral evaluations, and digital platforms.
@@ -52,7 +47,7 @@ Analyzing loan data is essential for banks, enhancing several critical aspects o
 ## Exploratory Data Analysis (EDA): 
 ### Summary of Insights
 #### Amount Distribution
-  - Loan amounts exhibited a right-skewed distribution, with a concentration of smaller loans and fewer larger facilities. This aligns with bank lending practices, whereby the majority of borrowers prefer smaller loans.
+  - Loan amounts exhibited a right-skewed distribution, with a concentration of smaller loans and fewer larger facilities. This aligns with bank lending practices, whereby a majority of borrowers prefer smaller loans.
 
 #### Interest Rate Distribution
 - Interest rates cluster around common values and increase progressively for riskier loans. Borrowers with higher risk profiles, such as those with lower credit scores, are generally charged higher interest rates.
@@ -89,6 +84,28 @@ The methodology for this loan analysis project employed advanced data analysis t
 - Benchmarked loan portfolio performance against industry standards and peer institutions, evaluating metrics such as default rates, interest rate structures, and portfolio growth to gauge competitiveness and identify areas for improvement.
 #### Data Visualization:
 - Utilized advanced visualization techniques to analyze loan performance trends. Charts and graphs provided comparative insights into loan risk profiles, repayment behaviors, and portfolio diversification, enabling a clearer understanding of performance metrics and risk management strategies.
+---
+## SQL Query Codes
+
+  Query 1                                                                                |               Query 2
+:--------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------:
+![SQL1](https://github.com/user-attachments/assets/f1c67c0d-65e5-49fe-ae5f-048303629a8e) |  ![SQL2](https://github.com/user-attachments/assets/7a8211d9-aa24-458c-90cb-6fe1982a28ca)
+
+  Query 3                                                                                |               Query 4
+:--------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------:
+ ![SQL3](https://github.com/user-attachments/assets/e6885be4-1c04-4a02-94c2-e74329062f19)|  ![SQL4](https://github.com/user-attachments/assets/e30d6c95-273e-40d9-8bf9-503d4431fbfd)
+
+  Query 5                                                                                |               Query 6
+:--------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------:
+![SQL5](https://github.com/user-attachments/assets/a559b93a-0cab-47ce-848a-66f88dbdc27c) |  ![SQL6](https://github.com/user-attachments/assets/663d3f14-82e9-4c3d-847e-cbeef7d51edd)
+
+  Query 7                                                                                |               Query 8
+:--------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------:
+![SQL7](https://github.com/user-attachments/assets/e225cc3b-1c70-4ead-99cc-23436343b064) | ![SQL8](https://github.com/user-attachments/assets/7ef41e84-e566-43c4-afd3-9d040ef90dcd)
+
+  Query 9                                                                                              
+:--------------------------------------------------------------------------------------: 
+![SQL9](https://github.com/user-attachments/assets/2389838a-4a9d-4320-a65d-812882b79725)  
 
 ---
 ### Results: 
