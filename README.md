@@ -21,27 +21,27 @@ The bank aims to enhance its lending operations by creating a comprehensive, act
 ### Data Set Descriptions:
 - The dataset contains several columns with detailed information about loan applicants and their loan details. Here's a breakdown of key columns to help guide the analysis:
 
-1.	**Borrower Characteristics:**
-  a. address_state: The state of residence.
-  b. application_type: Whether the loan is for an individual or joint application.
-  c. emp_length: Employment length of the borrower.
-  d. emp_title: Job title of the borrower.
-  e. annual_income: Borrower's annual income.
+#### 1. Borrower Characteristics:
+  - address_state: The state of residence.
+  - application_type: Whether the loan is for an individual or joint application.
+  - emp_length: Employment length of the borrower.
+  - emp_title: Job title of the borrower.
+  - annual_income: Borrower's annual income.
 
-2.	**Loan Characteristics:**
-  f. grade: Loan grade assigned based on credit risk.
-  g. sub_grade: More granular classification of loan risk.
-  h. term: Duration of the loan (36 or 60 months).
-  i. int_rate: the interest rate of the loan.
-  j. loan_amount: Principal loan amount.
-  k. installment: Monthly payment required.
-  l. verification_status: Whether the borrower's income has been verified.
+#### 2.	Loan Characteristics:
+  - grade: Loan grade assigned based on credit risk.
+  - sub_grade: More granular classification of loan risk.
+  - term: Duration of the loan (36 or 60 months).
+  - int_rate: the interest rate of the loan.
+  - loan_amount: Principal loan amount.
+  - installment: Monthly payment required.
+  - verification_status: Whether the borrower's income has been verified.
 
-3.	**Payment and Credit Metrics**:
-  m. total_acc: Total number of credit accounts.
-  n. dti: Debt-to-income ratio.
-  o. total_payment: Total amount paid towards the loan so far.
-  p. last_payment_date and last_credit_pull_date: Dates related to payments and credit checks.
+#### 3.	Payment and Credit Metrics:
+  - total_acc: Total number of credit accounts.
+  - dti: Debt-to-income ratio.
+  - total_payment: Total amount paid towards the loan so far.
+  - last_payment_date and last_credit_pull_date: Dates related to payments and credit checks.
 ---
 ## Exploratory Data Analysis (EDA): 
 ### Summary of Insights
