@@ -9,7 +9,6 @@ The analysis focused on understanding key factors that impact loan performance, 
 - 1.	Identify Default Risk Factors: Pinpoint the primary variables driving loan defaults.
 - 2.	Analyze Borrower Characteristics: Investigate how borrower attributes such as income, debt-to-income ratio (DTI), and employment length influence loan outcomes.
 - 3.	Examine Feature Relationships: Evaluate the interactions between key loan variables, including loan amount and interest rate, and their effect on default risk.
-
 - The analysis leverages SQL for advanced data processing and Power BI for insightful visualizations, delivering actionable insights into loan repayment trends, default probabilities, and customer segmentation. By integrating data-driven decision-making into its operations, the bank can optimize lending practices, improve risk management, and enhance financial performance.
 ---
 ### Problem Statement: 
@@ -84,6 +83,10 @@ The methodology for this loan analysis project employed advanced data analysis t
 - Benchmarked loan portfolio performance against industry standards and peer institutions, evaluating metrics such as default rates, interest rate structures, and portfolio growth to gauge competitiveness and identify areas for improvement.
 #### Data Visualization:
 - Utilized advanced visualization techniques to analyze loan performance trends. Charts and graphs provided comparative insights into loan risk profiles, repayment behaviors, and portfolio diversification, enabling a clearer understanding of performance metrics and risk management strategies.
+- **Dashboards:**
+  1. Summary Dashboard
+  2. Overview Dashboard
+  3. Details Dashboard
 ---
 ## SQL Query Codes
 
