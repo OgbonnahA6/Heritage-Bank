@@ -6,9 +6,9 @@
 ### Overview: 
 The analysis focused on understanding key factors that impact loan performance, particularly identifying predictors of loan defaults. The dataset contained borrower information, loan characteristics, and repayment details, allowing for an in-depth examination of risk indicators. 
 #### Key Objectives:
-- 1.	Identify Default Risk Factors: Pinpoint the primary variables driving loan defaults.
-- 2.	Analyze Borrower Characteristics: Investigate how borrower attributes such as income, debt-to-income ratio (DTI), and employment length influence loan outcomes.
-- 3.	Examine Feature Relationships: Evaluate the interactions between key loan variables, including loan amount and interest rate, and their effect on default risk.
+- Identify Default Risk Factors: Pinpoint the primary variables driving loan defaults.
+- Analyze Borrower Characteristics: Investigate how borrower attributes such as income, debt-to-income ratio (DTI), and employment length influence loan outcomes.
+- Examine Feature Relationships: Evaluate the interactions between key loan variables, including loan amount and interest rate, and their effect on default risk.
 - The analysis leverages SQL for advanced data processing and Power BI for insightful visualizations, delivering actionable insights into loan repayment trends, default probabilities, and customer segmentation. By integrating data-driven decision-making into its operations, the bank can optimize lending practices, improve risk management, and enhance financial performance.
 ---
 ### Problem Statement: 
@@ -167,7 +167,7 @@ The analysis yielded several significant findings:
 #### Employment and Income Verification:
 - Employment length and income are key predictors of loan performance. Focus on borrowers with stable, long-term employment when offering larger loans, or tailor repayment plans to align with their employment stability.
 #### Focus on Large Loan Monitoring:
-- Larger loans are more prone to default. This might require closer monitoring or more structured repayment options to reduce default rates.
+Larger loans are more prone to default and to reduce default rates, closer monitoring or more structured repayment options might be required.
 ---
 ### Overall Strategic Recommendations:
 - **Enhanced Credit Risk Modeling**: Consider incorporating more advanced predictive models (e.g., machine learning) to assess the likelihood of defaults based on loan grades, borrower characteristics, and geographical factors.
@@ -193,10 +193,10 @@ The analysis yielded several significant findings:
 ---
 ### Conclusion:
 **Summary of key findings:**
-  - Defaulted loans have a higher average loan amount ($12,635) when compared to non-defaulted loans ($11,202), indicating that borrowers with larger loans may face an increased risk of default.
-  - The average interest rate for defaulted loans is higher (13.89%) than for non-defaulted loans (11.92%), suggesting that higher-risk loans with elevated interest rates are more prone to default.
-  - Borrowers who default typically have a lower average income ($62,420) when compared to non-defaulted borrowers ($70,151), implying that lower income levels may hinder repayment ability.
-  - The debt-to-income ratio is slightly higher for defaulted loans (14.13%) when compared to non-defaulted loans (13.27%), indicating that a higher debt burden relative to income increases the likelihood of default.
+  - Defaulted loans have a higher average loan amount **($12,635)** than non-defaulted loans **($11,202)**, indicating that borrowers with larger loans may face an increased risk of default.
+  - The average interest rate for defaulted loans is higher **(13.89%)** than for non-defaulted loans **(11.92%)**, suggesting that higher-risk loans with elevated interest rates are more prone to default.
+  - Borrowers who default typically have a lower average income **($62,420)** than non-defaulted borrowers **($70,151)**, implying that lower income levels may hinder repayment ability.
+  - The debt-to-income ratio is slightly higher for defaulted loans **(14.13%)** than non-defaulted loans **(13.27%)**, indicating that a higher debt burden relative to income increases the likelihood of default.
   - Defaulted loans are often associated with borrowers with shorter employment histories, potentially reflecting reduced financial stability. This trend aligns with income data, highlighting that less stable employment may correlate with diminished repayment capacity.
 
 - The Heritage Bank loan analysis highlights key insights into loan performance, customer behavior, and risk management, emphasizing the value of data-driven decision-making to optimize lending practices, reduce risks, and enhance financial outcomes.
