@@ -58,21 +58,21 @@ The bank aims to enhance its lending operations by creating a comprehensive, act
 - Borrowers with higher DTI ratios tend to have greater financial commitments relative to their income, posing a higher risk of default. This risk is amplified when combined with lower incomes and higher interest rates.
 
 #### Correlation Insights
-- **Loan Amount vs. Interest Rate:**
+##### Loan Amount vs. Interest Rate:
   - A moderate positive correlation indicates that larger loans are associated with higher interest rates, likely reflecting the increased risk.
-- **Annual Income vs. Loan Amount:**
+##### Annual Income vs. Loan Amount:
   - Higher-income borrowers tend to secure larger loans, demonstrating a positive relationship.
-- **DTI vs. Interest Rate:**
+##### DTI vs. Interest Rate:**
   -  Borrowers with higher DTI ratios are often charged higher interest rates, as lenders perceive them as riskier due to existing debt obligations.
 
 ### Key Takeaways
-- **Risk Indicators:**
+##### Risk Indicators:
   -  Higher loan amounts, elevated interest rates, and increased DTI ratios are key indicators of potential default risk. Borrowers with lower incomes and higher DTIs should be evaluated with stricter approval criteria or offered alternative repayment structures.
 
-- **Segmentation Potential:**
+##### Segmentation Potential:
   - Segmenting borrowers by income, loan amount, and interest rate enables more precise risk assessment and supports the optimization of lending strategies.
 
-- **Feature Relationships:**
+##### Feature Relationships:
   - Understanding correlations between key features such as income, loan amount, and interest rates provides actionable insights for building predictive models to identify default risks and improve lending practices.
 ---
 ### Methodology: 
@@ -83,12 +83,12 @@ The methodology for this loan analysis project employed advanced data analysis t
 - Benchmarked loan portfolio performance against industry standards and peer institutions, evaluating metrics such as default rates, interest rate structures, and portfolio growth to gauge competitiveness and identify areas for improvement.
 #### Data Visualization:
 - Utilized advanced visualization techniques to analyze loan performance trends. Charts and graphs provided comparative insights into loan risk profiles, repayment behaviors, and portfolio diversification, enabling a clearer understanding of performance metrics and risk management strategies.
-- **Dashboards:**
+##### Dashboards:
   1. Summary Dashboard
   2. Overview Dashboard
   3. Details Dashboard
 ---
-## SQL Query Codes
+### SQL Query Codes
 
   Query 1                                                                                |               Query 2
 :--------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------:
@@ -114,60 +114,60 @@ The methodology for this loan analysis project employed advanced data analysis t
 ### Results: 
 The analysis yielded several significant findings:
 #### 1. Risk Assessment:
-- **Loan Grades and Defaults**
-  - **Insight**:
-    - Higher loan grades (like A or B) tend to be associated with lower interest rates and smaller loan amounts, while lower grades (C, D, E) have higher interest rates and larger loans.
-    - Additionally, loans with lower grades show higher total payments, which could imply a higher repayment burden due to interest accumulation.
-  - **Recommendation**:
-    - 1. Focus on refining loan approval criteria for applicants in lower-grade categories.
-    - 2. Consider implementing additional support mechanisms (e.g., financial counseling or better structuring of repayment plans) to reduce default risk in these groups.
+##### Loan Grades and Defaults
+##### Insight:
+  - Higher loan grades (like A or B) tend to be associated with lower interest rates and smaller loan amounts, while lower grades (C, D, E) have higher interest rates and larger loans.
+  - Additionally, loans with lower grades show higher total payments, which could imply a higher repayment burden due to interest accumulation.
+##### Recommendation
+  - Focus on refining loan approval criteria for applicants in lower-grade categories.
+  - Consider implementing additional support mechanisms (e.g., financial counseling or better structuring of repayment plans) to reduce default risk in these groups.
   
 #### 2. Borrower Financial Health and Loan Performance
-  - **Insight**:
-    - Borrowers with longer employment histories and higher annual incomes tend to make higher total payments, indicating better loan performance. This suggests that stable employment is a key indicator of financial health and repayment ability.
-  - **Recommendation**:
-    - Prioritize borrowers with longer employment lengths and higher incomes in loan approvals.
-    - Consider offering preferential terms (lower interest rates) to these demographics, as they exhibit lower risk.
+##### Insight
+  - Borrowers with longer employment histories and higher annual incomes tend to make higher total payments, indicating better loan performance. This suggests that stable employment is a key indicator of financial health and repayment ability.
+##### Recommendation
+  - Prioritize borrowers with longer employment lengths and higher incomes in loan approvals.
+  - Consider offering preferential terms (lower interest rates) to these demographics, as they exhibit lower risk.
 ---
 #### 3. Summary Dashboard:
   ![Slide1](https://github.com/user-attachments/assets/7cb5fa27-ecf5-4e98-b24b-89a3d080bd32)
 
 
 #### 4. Debt-to-Income Ratio (DTI) Analysis
-- **Insight**:
+##### Insight
   - The debt-to-income ratio (DTI) has a weak positive correlation with both loan amount and total payments, meaning that while a higher DTI may slightly increase loan size, it does not significantly impact repayment.
   - This also indicates that higher DTI does not strongly correlate with an increased risk of repayment issues.
-- **Recommendation**:
+##### Recommendation
   - DTI should still be considered an important part of the overall risk assessment, but it may not need to be heavily weighted.
   - Focus more on factors like income stability and loan grade when determining default risk.
   
 #### 5. Loan Amount vs Interest Rate Trends
-- **Insight:**
+##### Insight
   - A moderate positive correlation between loan amount and interest rates, meaning larger loans tend to come with higher interest rates. This could be because larger loans are perceived as riskier, requiring a higher return.
-- **Recommendation:**
+##### Recommendation:
   - Monitor larger loan segments for repayment challenges. Explore offering improved terms, such as reduced interest rates or extended repayment periods, specifically targeting higher-income individuals to enhance repayment rates on larger loans.
 ---
 #### 6. Overview Dashboard
 ![Slide2](https://github.com/user-attachments/assets/31e4d74f-a693-473f-800c-7288c8973400)
 
 #### 7. Geographical Trends
-#### Insight: 
+##### Insight
 - States differ significantly in average loan amounts, interest rates, and repayment performance. Some states show higher average loan amounts with lower repayments, indicating potential regional economic or demographic challenges.
-#### Recommendation: 
+##### Recommendation
 - Tailor loan products based on regional data. Consider adjusting lending criteria, interest rates, or loan caps for states with poorer loan performance. Offering regional promotions or financial education programs could also improve repayment behavior.
 ---
 #### 8. Details Dashboard:
 ![Slide3](https://github.com/user-attachments/assets/16790c9c-32b2-4f7d-9c1f-37c603a312ca)
 
 ### 9. Recommendations: 
-#### Stricter Loan Approval for High-Risk Loans:
+##### Stricter Loan Approval for High-Risk Loans:
 - Borrowers with lower incomes and high debt-to-income ratios should be subjected to stricter loan approval criteria. This could include verifying the borrower’s financial health more thoroughly or offering smaller loan amounts to reduce default risk.
-#### Adjust Interest Rates for Riskier Borrowers:
+##### Adjust Interest Rates for Riskier Borrowers:
 - Since higher interest rates are associated with default, the lending institution may want to reconsider its pricing strategy. Offering more competitive rates to lower-risk borrowers could enhance repayment performance.
-#### Employment and Income Verification:
+##### Employment and Income Verification:
 - Employment length and income are key predictors of loan performance. Focus on borrowers with stable, long-term employment when offering larger loans, or tailor repayment plans to align with their employment stability.
-#### Focus on Large Loan Monitoring:
-Larger loans are more prone to default and to reduce default rates, closer monitoring or more structured repayment options might be required.
+##### Focus on Large Loan Monitoring:
+- Larger loans are more prone to default and to reduce default rates, closer monitoring or more structured repayment options might be required.
 ---
 ### Overall Strategic Recommendations:
 - **Enhanced Credit Risk Modeling**: Consider incorporating more advanced predictive models (e.g., machine learning) to assess the likelihood of defaults based on loan grades, borrower characteristics, and geographical factors.
@@ -177,22 +177,22 @@ Larger loans are more prone to default and to reduce default rates, closer monit
 ---
 ### Future Work: 
 - Heritage Bank to focus on the following key areas of loan analysis for future work to enhance decision-making, risk management, and portfolio performance:
-#### Predictive Modeling for Default Risk:
+##### Predictive Modeling for Default Risk:
 - Refine predictive models for loan default risk using machine learning techniques like Random Forest, Gradient Boosting, or Neural Networks. Enhance accuracy by incorporating additional data, including borrower characteristics, macroeconomic indicators, and behavioral patterns.
-#### Customer Segmentation and Personalized Lending:
+##### Customer Segmentation and Personalized Lending:
 - Conduct customer segmentation analysis to understand borrower profiles and tailor lending products accordingly. Segmentation based on income, credit history, and repayment behavior can help design more personalized loan terms, reducing default risk and increasing customer satisfaction.
-#### Portfolio Stress Testing:
+##### Portfolio Stress Testing:
 - Implement stress testing models to evaluate how external factors (e.g., economic downturns, interest rate hikes, regulatory changes) impact loan portfolio performance. This will help identify vulnerabilities and prepare the institution for adverse economic scenarios.
-#### Fraud Detection and Anomaly Analysis:**
+##### Fraud Detection and Anomaly Analysis:**
 - Develop more advanced fraud detection algorithms by leveraging anomaly detection techniques and machine learning. Future work should focus on real-time monitoring systems that can identify fraudulent activities or irregularities in loan applications and repayment patterns.
-#### Impact of Economic Indicators on Loan Performance:**
+##### Impact of Economic Indicators on Loan Performance:**
 - Analyze the impact of key economic indicators such as inflation, unemployment rates, and GDP growth on loan repayment behavior and portfolio performance. This analysis can help institutions adjust their lending strategies in response to macroeconomic conditions.
-#### Loan Product Innovation and Profitability Analysis:
+##### Loan Product Innovation and Profitability Analysis:
 - Analyze the profitability of various loan products by examining interest rates, loan durations, and borrower risk profiles. Future efforts should focus on designing innovative loan products tailored to emerging market segments, ensuring a balance between profitability and risk.
 - This approach will strengthen risk mitigation strategies while improving portfolio management and operational efficiency.
 ---
 ### Conclusion:
-**Summary of key findings:**
+#### Summary of key findings
   - Defaulted loans have a higher average loan amount **($12,635)** than non-defaulted loans **($11,202)**, indicating that borrowers with larger loans may face an increased risk of default.
   - The average interest rate for defaulted loans is higher **(13.89%)** than for non-defaulted loans **(11.92%)**, suggesting that higher-risk loans with elevated interest rates are more prone to default.
   - Borrowers who default typically have a lower average income **($62,420)** than non-defaulted borrowers **($70,151)**, implying that lower income levels may hinder repayment ability.
